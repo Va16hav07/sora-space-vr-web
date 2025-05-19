@@ -2,8 +2,6 @@ import * as React from "react";
 import "./App.css";
 import logo from "./assets/logo.png";
 import 'aframe';
-// Import the type declaration file we'll create
-import './aframe-types';
 
 const App: React.FC = () => {
   return (
