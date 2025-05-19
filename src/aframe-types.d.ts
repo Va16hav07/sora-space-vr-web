@@ -1,15 +1,24 @@
-// Type declarations for A-Frame elements
-declare namespace JSX {
-  interface IntrinsicElements {
-    'a-scene': any;
-    'a-entity': any;
-    'a-camera': any;
-    'a-box': any;
-    'a-sphere': any;
-    'a-cylinder': any;
-    'a-plane': any;
-    'a-sky': any;
-    'a-image': any;
-    'a-text': any;
+// Make sure this file is included in your tsconfig.json
+
+// A-Frame custom elements declaration
+import React from 'react';
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'a-scene': React.DetailedHTMLProps<any, any>;
+      'a-entity': React.DetailedHTMLProps<any, any>;
+      'a-camera': React.DetailedHTMLProps<any, any>;
+      'a-box': React.DetailedHTMLProps<any, any>;
+      'a-sphere': React.DetailedHTMLProps<any, any>;
+      'a-cylinder': React.DetailedHTMLProps<any, any>;
+      'a-plane': React.DetailedHTMLProps<any, any>;
+      'a-sky': React.DetailedHTMLProps<any, any>;
+      'a-image': React.DetailedHTMLProps<any, any>;
+      'a-text': React.DetailedHTMLProps<any, any>;
+    }
   }
 }
+
+// This export is required to make this a module
+export {};
