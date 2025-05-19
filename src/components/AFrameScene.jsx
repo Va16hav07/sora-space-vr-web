@@ -2,7 +2,6 @@ import React from 'react';
 import 'aframe';
 import logo from '../assets/logo.png';
 
-// Using JSX file extension to bypass TypeScript checks for A-Frame components
 const AFrameScene = () => {
   return (
     <a-scene>

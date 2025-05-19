@@ -1,5 +1,3 @@
-// Make sure this file is included in your tsconfig.json
-
 // A-Frame custom elements declaration
 import React from 'react';
 
@@ -19,6 +17,4 @@ declare global {
     }
   }
 }
-
-// This export is required to make this a module
 export {};

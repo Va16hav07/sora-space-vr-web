@@ -1,6 +1,5 @@
 import * as React from "react";
 import "./App.css";
-// Import the JSX component instead of using A-Frame tags directly
 import AFrameScene from "./components/AFrameScene";
 
 const App: React.FC = () => {

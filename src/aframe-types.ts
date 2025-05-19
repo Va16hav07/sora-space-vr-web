@@ -11,6 +11,5 @@ declare namespace JSX {
     'a-sky': any;
     'a-image': any;
     'a-text': any;
-    // Add any other A-Frame elements you might use
   }
 }
